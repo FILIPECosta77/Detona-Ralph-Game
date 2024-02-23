@@ -8,7 +8,7 @@ jogo simples baseado no filme Detona Ralph, onde o objetivo é clicar no Ralph, 
 ## Como executar o jogo
 
 - Faça um clone do repositório
-- Instale a extemção Live Server
-- Clicque no botão inferior direito Go Live
+- Instale a extemção chamada "Live Server"
+  Apos a instalação, clique no botão inferior direito "Go Live"
 
 Pronto o programa ira ser executado
