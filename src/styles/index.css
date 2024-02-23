@@ -1,0 +1,94 @@
+.container {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  background-image: url("../images/wall.png");
+}
+
+.menu {
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.menu .menu-title {
+  color: #ff0000;
+  font-size: 22px;
+}
+
+.menu-time,
+.menu-score {
+  width: 30%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.panel {
+  height: 100%;
+  margin-top: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-lives {
+  width: 30%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-lives img {
+  height: 50px;
+}
+
+.square {
+  height: 150px;
+  width: 150px;
+  border: 1px solid #000;
+
+  background-color: #7fffd4;
+}
+
+.enemy {
+  background-image: url("../images/ralph.png");
+  background-size: cover;
+}
+
+.subMenu {
+  width: 200px;
+  height: 80px;
+
+  display: flex;
+
+  background-color: #000;
+}
+
+.subMenu-higherScore {
+  width: 200px;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.subMenu-title,
+.subMenu-higherScore_higherScore {
+  color: #fff;
+}
